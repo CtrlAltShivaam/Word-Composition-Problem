@@ -31,9 +31,14 @@ java Main
 
 5. The program will display the longest compounded word, the second longest compounded word, and the time taken to process the input file.
 
-## Design Decisions
+## Design Decisions + Approach Taken
 
-The Compound Word Finder program was designed with the primary goal of efficiently identifying the longest and second-longest compounded words in a list of alphabetically sorted words. Key design decisions include using a HashSet for fast word lookup, employing a recursive algorithm to detect compounded words, sorting words by length for improved efficiency, providing user-friendly console output, and ensuring ease of use by prompting the user to enter the target input file's filename. These design choices aim to strike a balance between performance, accessibility, and thorough analysis of compounded words, making the program a practical tool for various applications.
+The Compound Word Finder program was designed with the primary goal of efficiently identifying the longest and second-longest compounded words in a list of alphabetically sorted words. Key design decisions include:
+1. Using a HashSet for fast word lookup, employing a recursive algorithm to detect compounded words, 
+2. Sorting words by length for improved efficiency, providing user-friendly console output, and 
+3. Ensuring ease of use by prompting the user to enter the target input file's filename. 
+
+These design choices aim to strike a balance between performance, accessibility, and thorough analysis of compounded words, making the program a practical tool for various applications.
 
 
 
