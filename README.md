@@ -55,18 +55,17 @@ Steps:
 5. Iterate through the sorted list of words:
 
 6. Check if a word is a compound word using the isCompoundWord method.
-    If it's a compound word:
-    If the longest compound word is null, set it to the current word.
-    If the second longest compound word is null, set it to the current word and exit the loop.
-    Record the end time of the process.
+    * If it's a compound word:
+    * If the longest compound word is null, set it to the current word.
+    * If the second longest compound word is null, set it to the current word and exit the loop.
+    * Record the end time of the process.
 
 7. Calculate the elapsed time (end time - start time).
 
 8. Print the results to the console:
-
-    The longest compound word:
-    The second longest compound word:
-    The time taken to process the input file (in milliseconds):
+    * The longest compound word:
+    * The second longest compound word:
+    * The time taken to process the input file (in milliseconds):
 
 
 
