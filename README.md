@@ -40,5 +40,33 @@ The Compound Word Finder program was designed with the primary goal of efficient
 
 These design choices aim to strike a balance between performance, accessibility, and thorough analysis of compounded words, making the program a practical tool for various applications.
 
+## Algortithm Used
+
+Steps:
+
+1. Create a CompoundWordFinder object to manage the dictionary of words.
+
+2. Read the user-specified input file from the provided data, storing words in a list and inserting them into the dictionary.
+
+3. Sort the list of words by length in descending order.
+
+4. Initialize variables for the longest and second longest compound words (both initially null).
+
+5. Iterate through the sorted list of words:
+
+6. Check if a word is a compound word using the isCompoundWord method.
+    If it's a compound word:
+    If the longest compound word is null, set it to the current word.
+    If the second longest compound word is null, set it to the current word and exit the loop.
+    Record the end time of the process.
+
+7. Calculate the elapsed time (end time - start time).
+
+8. Print the results to the console:
+
+    The longest compound word:
+    The second longest compound word:
+    The time taken to process the input file (in milliseconds):
+
 
 
